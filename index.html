@@ -3,154 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pugalenthi G - Digital Resume</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Digital Resume - Pugalenthi G</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f4f7fa;
+      background-color: #f0f2f5;
       color: #333;
     }
-    .resume {
+    .container {
       max-width: 900px;
-      margin: 50px auto;
+      margin: 30px auto;
       background: #fff;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px 30px;
       border-radius: 10px;
-      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
     h1 {
-      font-size: 32px;
-      color: #2c3e50;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 10px;
-      margin-bottom: 30px;
+      font-size: 28px;
+      color: #1a73e8;
+      margin-bottom: 5px;
     }
     h2 {
-      color: #3498db;
       font-size: 20px;
+      border-bottom: 2px solid #1a73e8;
+      padding-bottom: 4px;
       margin-top: 30px;
+      color: #1a73e8;
+    }
+    h3 {
+      font-size: 16px;
+      margin-top: 20px;
+      color: #2c3e50;
     }
     p, li {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.6;
     }
     ul {
       padding-left: 20px;
+      margin: 10px 0;
+    }
+    .contact p {
+      margin: 5px 0;
+      font-size: 14px;
     }
     .highlight {
       font-weight: 600;
-      color: #2c3e50;
+      color: #000;
     }
-    .contact-info {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 20px;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
-    .badge {
-      display: inline-block;
-      background-color: #3498db;
-      color: white;
-      padding: 3px 8px;
-      font-size: 13px;
-      border-radius: 4px;
-      margin: 3px 5px 3px 0;
-    }
-    .lang-skills {
-      margin-top: 10px;
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 20px 15px;
+        margin: 10px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="resume">
+  <div class="container">
     <h1>Pugalenthi G</h1>
-    <div class="contact-info">
-      <p><strong>Address:</strong> 384/3, Karnam Street, Arakkan Kottai, Gobichettipalayam</p>
+    <div class="contact">
+      <p><strong>Address:</strong> 384/3, Karnam Street, Arakkan Kottai, Gobichettipalayam, Erode - 638506</p>
       <p><strong>Email:</strong> pugalpugalee333@gmail.com | <strong>Phone:</strong> +91 6383106107</p>
-      <p><strong>DOB:</strong> 10-11-2004 | <strong>LinkedIn:</strong> linkedin.com/in/Pugalenthi-gunaparimalam | <strong>GitHub:</strong> github.com/TechiePugal</p>
+      <p><strong>Date of Birth:</strong> 10-11-2004 | <strong>Place of Birth:</strong> Gobichettipalayam</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/Pugalenthi-gunaparimalam | <strong>GitHub:</strong> github.com/TechiePugal</p>
     </div>
 
-    <div class="section">
-      <h2>Objective</h2>
-      <p>Ambitious, analytical software developer with expertise in <span class="highlight">React Native, Django</span>, and <span class="highlight">MERN stack</span>. Committed to delivering scalable, high-quality solutions and excelling in collaborative development environments with a focus on cloud efficiency and product impact.</p>
-    </div>
+    <h2>Objective</h2>
+    <p>Ambitious, analytically-minded software developer specializing in MERN Stack, React Native, Django, and advanced cloud platforms. Proven ability in building scalable and secure software applications, optimizing system performance, and integrating modern tools like Zustand, Firebase, and AWS ML services. Passionate about innovation and product development.</p>
 
-    <div class="section">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Kongu Engineering College</strong> – B.Tech IT, July 2022 – May 2025, GPA: 7.10</li>
-        <li><strong>Sakthi Polytechnic College</strong> – Diploma in EEE, July 2019 – May 2022, Score: 83%</li>
-        <li><strong>Diamond Jubilee HSS</strong> – SSLC, June 2018 – March 2019, Score: 65%</li>
-      </ul>
-    </div>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Information Technology</strong> - Kongu Engineering College (2022 - 2025) – GPA: 7.10</li>
+      <li><strong>Diploma in Electrical and Electronics Engineering</strong> - Sakthi Polytechnic College (2019 - 2022) – 83%</li>
+      <li><strong>SSLC</strong> - Diamond Jubilee Higher Secondary School (2018 - 2019) – 65%</li>
+    </ul>
 
-    <div class="section">
-      <h2>Experience</h2>
-      <ul>
-        <li><strong>The Cloud Company</strong> – Software Engineering Intern, Oct 2024 – Present</li>
-        <li><strong>Codebind Technology</strong> – Web Development Intern (7 Days)</li>
-        <li><strong>Super Groups of Companies</strong> – Product & IT Coordinator (Current)</li>
-      </ul>
-    </div>
+    <h2>Work Experience</h2>
+    <h3>Super Groups of Companies – Product & IT Coordinator</h3>
+    <p><em>Current, Coimbatore</em></p>
+    <ul>
+      <li>Managing enterprise IT infrastructure and software product lifecycle.</li>
+      <li>Maintaining UI with React, Zustand, and Firebase.</li>
+      <li>Integrating AWS Machine Learning services and scalable deployment models.</li>
+    </ul>
 
-    <div class="section">
-      <h2>Certifications</h2>
-      <span class="badge">AWS Cloud Fundamentals</span>
-      <span class="badge">Tableau & Power BI</span>
-    </div>
+    <h3>The Cloud Company – Software Engineering Intern</h3>
+    <p><em>October 2024 - Present, Erode</em></p>
+    <ul>
+      <li>Built and deployed full-stack applications using React, Node, and Firebase.</li>
+      <li>Developed API integrations and optimized backend services on AWS.</li>
+    </ul>
 
-    <div class="section">
-      <h2>Skills</h2>
-      <p>
-        <span class="badge">React Native</span>
-        <span class="badge">Django</span>
-        <span class="badge">Node.js</span>
-        <span class="badge">Firebase</span>
-        <span class="badge">MongoDB</span>
-        <span class="badge">AWS</span>
-        <span class="badge">SQL</span>
-        <span class="badge">CI/CD</span>
-        <span class="badge">Docker</span>
-        <span class="badge">Microsoft Azure</span>
-        <span class="badge">Tailwind CSS</span>
-        <span class="badge">Git</span>
-      </p>
-    </div>
+    <h3>CodeBind Technologies – Web Development Intern</h3>
+    <p><em>7 Days, Coimbatore</em></p>
+    <ul>
+      <li>Developed dashboards using Power BI and Tableau.</li>
+      <li>Collaborated on frontend design using React and backend with Node.js.</li>
+    </ul>
 
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Data Analytics Platform:</strong> Built ML models for operational insights.</li>
-        <li><strong>Cloud Infrastructure:</strong> Deployed scalable apps with CI/CD.</li>
-        <li><strong>Process Optimization:</strong> Automated workflows for defect detection & monitoring.</li>
-      </ul>
-    </div>
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Cloud Fundamentals</li>
+      <li>Tableau and Power BI for Business Intelligence</li>
+    </ul>
 
-    <div class="section">
-      <h2>Achievements</h2>
-      <ul>
-        <li>Startup Mania – 3rd Place, “Secured OS” – ₹10,000</li>
-        <li>District Project Expo – 3rd Place, “Fake Vehicle Finder” – ₹5,000</li>
-        <li>College Ideathon – 2nd & 3rd Place for AI/ML Solutions</li>
-        <li>CODATHON – 3rd Place</li>
-        <li>NCC – Certified ‘C’ Cadet</li>
-      </ul>
-    </div>
+    <h2>Skills</h2>
+    <ul>
+      <li><span class="highlight">Languages:</span> JavaScript, Java, Python, SQL</li>
+      <li><span class="highlight">Web & App:</span> MERN Stack, React Native, Django, Next.js</li>
+      <li><span class="highlight">Cloud:</span> AWS, Firebase, Microsoft Azure</li>
+      <li><span class="highlight">UI:</span> Zustand, Tailwind CSS, Material UI</li>
+      <li><span class="highlight">Tools:</span> Git, Docker, Firebase Realtime DB, Firestore</li>
+      <li><span class="highlight">Concepts:</span> REST APIs, Agile, Responsive Design</li>
+    </ul>
 
-    <div class="section">
-      <h2>Languages</h2>
-      <p class="lang-skills"><strong>Fluent:</strong> Tamil, English</p>
-    </div>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Predictive Data Platform:</strong> Visualized KPIs using AI and data modeling.</li>
+      <li><strong>Cloud App Deployment:</strong> CI/CD integrations across Firebase & AWS EC2.</li>
+      <li><strong>Automation Bot:</strong> Reduced data entry time by 50% with custom workflows.</li>
+    </ul>
 
-    <div class="section">
-      <h2>Area of Interest</h2>
-      <p>Software Development, Cloud Computing, Data Analytics, AI/ML</p>
-    </div>
+    <h2>Achievements</h2>
+    <ul>
+      <li><strong>NCC:</strong> 'C' Certificate Holder</li>
+      <li><strong>Startup Mania:</strong> 3rd Place – ₹10,000 for "Secured OS"</li>
+      <li><strong>District Expo:</strong> 3rd Place – ₹5,000 for "Fake Vehicle Finder"</li>
+      <li><strong>Ideathon:</strong> 2nd for "Data Analytics" & 3rd for "Helmet Detection"</li>
+      <li><strong>Codathon:</strong> 3rd Place in college programming contest</li>
+      <li><strong>Internships Completed:</strong> 6 internships in software and web development across domains like cybersecurity, AI, and data analysis</li>
+      <li><strong>Hackathon Participation:</strong> 10+ participations with 6 wins across state-level and college hackathons</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <p>English, Tamil (Fluent in both written and spoken)</p>
+
+    <h2>Area of Interest</h2>
+    <p>Software Engineering, Cloud Architecture, UI/UX Design, Data Analysis</p>
   </div>
 </body>
 </html>
